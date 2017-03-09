@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/ic_timetable"
+            android:title="Timetable"/>
+        <item
+            android:id="@+id/nav_grades"
+            android:icon="@drawable/ic_grades"
+            android:title="Grades"/>
+        <item
+            android:id="@+id/nav_deadlines"
+            android:icon="@drawable/ic_deadlines"
+            android:title="Deadlines"/>
+        <item
+            android:id="@+id/nav_email"
+            android:icon="@drawable/ic_email"
+            android:title="Email"/>
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings"
+                android:title="SETTINGS"/>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="HELP"/>
+            <item
+                android:id="@+id/nav_tandc"
+                android:icon="@drawable/ic_tanda"
+                android:title="TERMS\u0020\u0026\u0020CONDITIONS"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
